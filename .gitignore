@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JetBrains Project config
+.idea
+
+# Local COMBINE files
+/combine
