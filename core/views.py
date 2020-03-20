@@ -19,6 +19,8 @@ def serialize_graph():
 
 def BootstrapFilterView(request):
     if "filter_for" in request.GET and "entity" in request.GET:
+        # TODO: Add SPARQL mappings for all statements
+        # TODO: Use prepared SPARQL queries to avoid SPARQL injection
         options = {
             'Has Mediator Participant': (
                 """        
